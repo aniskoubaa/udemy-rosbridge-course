@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# ROS-Teleoperation-Web-Interface
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a React-based web application for teleoperating and monitoring a robot using the Robot Operating System (ROS). The web interface allows you to control the robot, visualize the navigation map, and monitor its position, orientation, and velocity. This project is built with ReactJS, a popular JavaScript framework for front-end development.
 
-## Available Scripts
+[![Course](https://img.shields.io/badge/Udemy-Course-blue)](https://www.udemy.com/ros-web-nav/)
+[![Discount](https://img.shields.io/badge/Discount-Coupons-green)](https://www.riotu-lab.org/udemy.php)
 
-In the project directory, you can run:
+## Udemy Course
 
-### `npm start`
+Learn more about this project and the concepts behind it by enrolling in our Udemy course: [ROS Web Navigation](https://www.udemy.com/course/ros-web-nav/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Discount Coupons
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+For occasional time, you can get discount coupons for this course on our website: [RIOTU Lab](https://www.riotu-lab.org/udemy.php).
 
-### `npm test`
+## Project Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The web interface is composed of the following components:
 
-### `npm run build`
+- **About.jsx**: Contains information about the project and its purpose.
+- **Body.jsx**: The main body of the web application.
+- **Connection.jsx**: Displays the connection status of the robot.
+- **Footer.jsx**: The footer section of the web application.
+- **Header.jsx**: The header section of the web application.
+- **Home.jsx**: The landing page of the web application.
+- **Map.jsx**: Displays the navigation map and allows the user to set the robot's goal location.
+- **RobotState.jsx**: Displays live information about the robot's position, orientation, and linear/angular velocity.
+- **Teleoperation.jsx**: Provides teleoperation controls, including a web-based joystick and an emergency stop button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+These instructions will help you set up the project on your local machine for development and testing purposes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Before you begin, make sure you have the following software installed on your machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Node.js (v14.x or later)
+- npm (v7.x or later)
+- ROS (Robot Operating System)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installing Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To install the required dependencies, navigate to the project directory and run the following command:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+This command will install all the necessary packages from the package.json file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Running the Project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To start the project, navigate to the project directory and run:
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This command will launch the development server, and the web application will be accessible at [http://localhost:3000](http://localhost:3000) in your web browser.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+We welcome contributions to this project. Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information on how to contribute, submit pull requests, and report issues.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**. You are free to use, share, and adapt this material for non-commercial purposes, as long as you provide attribution to the original author(s) and the source.
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We would like to thank all the contributors and the ROS community for their support and resources that made this project possible.

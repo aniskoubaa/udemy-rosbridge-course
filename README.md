@@ -13,6 +13,12 @@ Learn more about this project and the concepts behind it by enrolling in our Ude
 
 For occasional time, you can get discount coupons for this course on our website: [RIOTU Lab](https://www.riotu-lab.org/udemy.php).
 
+## Video Overview
+
+Watch video overview on YouTube to help you get started with the project and understand the project scope:
+
+[![ROS for Beginners III: Web-based Navigation with ROSBridge](http://img.youtube.com/vi/cmQ-a8-0TeQ/0.jpg)](http://www.youtube.com/watch?v=cmQ-a8-0TeQ "ROS for Beginners III: Web-based Navigation with ROSBridge")
+
 ## Project Overview
 
 The web interface is composed of the following components:

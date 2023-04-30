@@ -38,6 +38,9 @@ Before you begin, make sure you have the following software installed on your ma
 - Node.js (v14.x or later)
 - npm (v7.x or later)
 - ROS (Robot Operating System)
+- ROSBridge Package
+
+The course provides complete details on the environment setup process.
 
 ### Installing Dependencies
 
